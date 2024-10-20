@@ -49,15 +49,11 @@ Displays a help message describing every input parameter.
 
 - `[o]` - string - File path / File name for the output BTX file  - Optional (Default behavior would put the output file in the same folder as the input PNG file with the same name but with the extension changed to `.BTX`).
 
-    
-
   <!-- -->
-  
+
+### License
     
-  
-  ### License
-    
-  For license information please see LICENSE.md
+For license information please see LICENSE.md
     
     
 
