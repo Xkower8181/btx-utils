@@ -31,37 +31,33 @@ Displays a help message describing every input parameter.
 
 - `[o_png]` - string - File path / File name for the output PNG file (The output PNG is in indexed mode with the palette information acquired from  the file dictated by`[i_pal]`) - Optional (Default behavior would put the output file in the same folder as the input BTX file with the same name but with the extension changed to `.png`).
 
-  
-
   <!-- -->
 
-  
+### Usage - PNG to BTX
 
-  ### Usage - PNG to BTX
+`python3 ./png2btx.py -- help`
 
-  `python3 ./png2btx.py -- help`
+Displays a help message describing every input parameter.
 
-  Displays a help message describing every input parameter.
+`python3 ./png2btx.py [i] [is_4bpp] [o] (Optional)`
 
-  `python3 ./png2btx.py [i] [is_4bpp] [o] (Optional)`
+#### Parameters
 
-  #### Parameters
+- `[i]` - string - File path for input (indexed) PNG (While it should be able to output a file when inputting a indexed PNG with a palette entries amount that isn't 16 or 256, I wouldn't recommend it);
 
-  - `[i]` - string - File path for input (indexed) PNG (While it should be able to output a file when inputting a indexed PNG with a palette entries amount that isn't 16 or 256, I wouldn't recommend it);
+- `[is_4bpp]` - boolean - Determines whether or not to treat the file as it's 8bpp or 4bpp (False for the former and True for the latter);
 
-  - `[is_4bpp]` - boolean - Determines whether or not to treat the file as it's 8bpp or 4bpp (False for the former and True for the latter);
-
-  - `[o]` - string - File path / File name for the output BTX file  - Optional (Default behavior would put the output file in the same folder as the input PNG file with the same name but with the extension changed to `.BTX`).
+- `[o]` - string - File path / File name for the output BTX file  - Optional (Default behavior would put the output file in the same folder as the input PNG file with the same name but with the extension changed to `.BTX`).
 
     
 
-    <!-- -->
+  <!-- -->
   
     
   
-    ### License
+  ### License
     
-    For license information please see LICENSE.md
+  For license information please see LICENSE.md
     
     
 
