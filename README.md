@@ -8,16 +8,22 @@ Dependencies
 
 The scripts use Pillow and Typer for PNG processing and CLI implementation respectively.
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 Usage - BTX to PNG
 -----
 
-`python3 ./btx2png.py -- help`
+```
+python3 ./btx2png.py -- help
+```
 
 Displays a help message describing every input parameter.
 
-`python3 ./btx2png.py [i_btx] [i_pal] [is_4bpp] [i_x_y] (Optional) [x_y_determine] (Optional) [o_png] (Optional)`
+```
+python3 ./btx2png.py [i_btx] [i_pal] [is_4bpp] [i_x_y] (Optional) [x_y_determine] (Optional) [o_png] (Optional)
+```
 
 #### Parameters
 
@@ -38,11 +44,15 @@ Displays a help message describing every input parameter.
 Usage - PNG to BTX
 -----
 
-`python3 ./png2btx.py -- help`
+```
+python3 ./png2btx.py -- help
+```
 
 Displays a help message describing every input parameter.
 
-`python3 ./png2btx.py [i] [is_4bpp] [o] (Optional)`
+```
+python3 ./png2btx.py [i] [is_4bpp] [o] (Optional)
+```
 
 #### Parameters
 
