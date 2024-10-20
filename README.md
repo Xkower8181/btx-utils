@@ -31,7 +31,9 @@ Displays a help message describing every input parameter.
 
 - `[o_png]` - string - File path / File name for the output PNG file (The output PNG is in indexed mode with the palette information acquired from  the file dictated by`[i_pal]`) - Optional (Default behavior would put the output file in the same folder as the input BTX file with the same name but with the extension changed to `.png`).
 
-  [//]: # (Hello)
+  
+
+  <!-- -->
 
   
 
@@ -51,12 +53,14 @@ Displays a help message describing every input parameter.
 
   - `[o]` - string - File path / File name for the output BTX file  - Optional (Default behavior would put the output file in the same folder as the input PNG file with the same name but with the extension changed to `.BTX`).
 
-    [//]: # (Hello)
-
     
 
-    ### License
+    <!-- -->
   
+    
+  
+    ### License
+    
     For license information please see LICENSE.md
     
     
