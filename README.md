@@ -3,13 +3,15 @@ A pair of command line scripts written in Python to convert Puyo BOX and Waku Pu
 
 
 
-### Dependencies
+Dependencies
+-----
 
 The scripts use Pillow and Typer for PNG processing and CLI implementation respectively.
 
 `pip install -r requirements.txt`
 
-### Usage - BTX to PNG
+Usage - BTX to PNG
+-----
 
 `python3 ./btx2png.py -- help`
 
@@ -33,7 +35,8 @@ Displays a help message describing every input parameter.
 
   <!-- -->
 
-### Usage - PNG to BTX
+Usage - PNG to BTX
+-----
 
 `python3 ./png2btx.py -- help`
 
@@ -51,7 +54,8 @@ Displays a help message describing every input parameter.
 
   <!-- -->
 
-### License
+License
+-----
     
 For license information please see LICENSE.md
     
